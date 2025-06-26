@@ -183,10 +183,10 @@ const [activeCategory, setActiveCategory] = useState("Quran");
           Learning and memorizing the holy Quran with fun in a comfortable environment.
         </p>
         <div className="flex justify-center gap-4">
-         <Link to="/courses"><button className="bg-[#111827] text-white px-6 py-3 rounded-full text-sm flex items-center gap-2">
+         <Link to="/courses"><button className="bg-[#111827] text-white px-4 md:px-6 py-1 md:py-2 rounded-full text-sm flex items-center gap-2">
             Our Courses <HiArrowNarrowRight />
           </button></Link>
-        <Link to="/contact"> <button className="border border-[#111827] px-6 py-3 rounded-full text-sm flex items-center gap-2">
+        <Link to="/contact"> <button className="border border-[#111827] px-4 md:px-6 py-1 md:py-2 rounded-full text-sm flex items-center gap-2">
             Contact us <HiArrowNarrowRight />
           </button></Link>
         </div>
